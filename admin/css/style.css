@@ -1,0 +1,99 @@
+
+
+
+/* style for customer table to show all customers in customers.php */
+
+.filterable {
+   margin-top: 15px;
+}
+.row .panel-body .panel-heading{
+
+    width: 100%;
+}
+
+.row .panel-body{
+    max-width:100%;
+    /* margin-left:120px; */
+    margin-right:40px;
+}
+.filterable .panel-heading .pull-right  .btn{
+    background: #427c6fab;
+    color: bisque;
+    font-family: monospace;
+    font-size: medium;
+    padding: 6px;
+    margin-right: 27px;
+    margin-bottom: 26px;
+}
+.filterable .panel-heading .pull-right  .btn:hover{
+    background: #427c6fab;
+    color: bisque;
+    font-family: monospace;
+    font-size: medium;
+    padding: 6px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -40px;
+    margin-right: 28px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Quotation tab Look style sheet */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+      border-color: #495057 #495057 #fff;
+}
+
+.nav-tabs {
+  border-bottom-color: #495057;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #ccc #ccc #495057;
+  background-color: #eee;
+}
+
+.nav-tabs .nav-link:active {
+  font-family: sans-serif;
+background-color: #6b5d5d5e;
+font-size: 19px;
+}
+
+.nav-tabs .nav-link {
+  font-size: 17px;
+border: 2px solid #999;
+border-radius: 9px;
+margin-bottom:13px;
+}
+
+
+
+/* Tabs Card */
